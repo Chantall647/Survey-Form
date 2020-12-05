@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1 id="title">Survey Form</h1>
+<p id="description" class="quote">Thank you for taking the time to complete this survey!</p>
+
+<a><link rel="preconnect" href="https://fonts.gstatic.com">
+<link <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Pacifico&display=swap" rel="stylesheet">
+
+<div class="survey-format">
+  <form id="survey-form">
+  
+ <label id="name-label" for="name">Name</label> 
+  <br>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="square"
+        placeholder="Enter your name"
+        required
+      />
+  <br>
+  <br>
+
+    <label id="email-label"for="email">Email</label><br>
+    <input
+     type="email"
+     id="email"
+     name="email"
+     class="square"
+     placeholder="Enter your Email"
+     required/><br><br>
+
+      <label id="number-label" for="number"
+        >Age</label><br>
+      <input
+        type="number"
+        name="age"
+        class="square"
+        id="number"
+        min="10"
+        max="99"
+        placeholder="Age"
+      /><br>
+       
+
+     <p class="question" id="station">Which one is your favorite radio station?</p>
+      <select id="dropdown" name="station" required>
+        <option disabled selected value>Select current radio station</option>
+        <option value="Rock Fm">Rock FM</option>
+        <option value="Kiss FM">Kiss FM</option>
+        <option value="Magic FM">Magic FM</option>
+        <option value="Radio 21">Radio 21</option>
+        <option value="other">Other</option>
+      </select>
+       
+      <p class="question" id="genre">What's your favorite music genre?</p>
+      <label>
+        <input
+          name="user-recommend"
+          type="radio"
+          value="Rock"
+         />Rock</label>
+      <label><br>
+        <input
+          name="user-recommend"
+          value="Pop"
+          type="radio"
+        />Pop</label
+      ><br>
+
+      <label
+        ><input
+          name="user-recommend"
+          value="Hip-Hop"
+          type="radio"
+        />Hip-Hop</label
+      ><br>
+       <label
+        ><input
+          name="user-recommend"
+          value="Reggae"
+          type="radio"
+        />Reggae</label
+      ><br>
+          <label
+        ><input
+          name="user-recommend"
+          value="Disco"
+          type="radio"
+        />Disco</label
+      ><br>
+          <label
+        ><input
+          name="user-recommend"
+          value="Techno"
+          type="radio"
+        />Techno</label
+      >
+<br>
+    
+    
+    <p class ="question" id="fest"> What is your favorite music festival?
+      </p>
+      <select id="most-like" name="mostLike" required>
+        <option disabled selected value>Select an option</option>
+        <option value="untold">Untold</option>
+        <option value="electric castle">Electric Castle</option>
+        <option value="summer well">Summer Well</option>
+        <option value="never sea">Never Sea</option>
+      </select>
+
+<p class="question" id="streaming"> What music streaming service do you frequently use ?
+        <span class="clue">(Check all that apply)</span>
+      </p>
+
+      <label
+        ><input
+          name="prefer"
+          value="Spotify"
+          type="checkbox"
+        />Spotify</label
+      ><br>
+      <label>
+        <input
+          name="prefer"
+          value="Youtube"
+          type="checkbox"
+        />Youtube</label
+      ><br>
+      <label
+        ><input
+          name="prefer"
+          value="data-visualization"
+          type="checkbox"
+        />Other</label
+      ><br>
+      <label
+        ><input
+          name="prefer"
+          value="Apple Music"
+          type="checkbox"
+        />Apple Music</label
+      ><br>
+      <label
+        ><input
+          name="prefer"
+          value="Amazon music"
+          type="checkbox"
+        />Amazon Music</label
+      ><br>
+
+      <p class="question" id="comment">Who's your favorite artist/band?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comment here..."
+      ></textarea>
+     <br>
+
+      <button type="submit" id="submit">
+        Submit
+      </button>
+  </form>
+</div>
+<!-- partial -->
+  
+</body>
+</html>

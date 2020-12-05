@@ -1,0 +1,94 @@
+body {
+  background-image: url('https://happywall-img-gallery.imgix.net/3630/pink_headphones_display.jpg');
+  width:100%;
+  height:100;
+  background-size:cover; 
+  font-family:'Abril Fatface';
+  font-size:18px;
+  line-height:1.4;
+}
+
+.survey-format {
+  background-color:rgba(0, 0, 0, 0.6);
+  width:55%;
+  height:55%;
+  padding:20px;
+  border-radius:10px;
+  text-align:left;
+  margin:auto
+}
+
+h1 {
+  text-align:center;
+}
+ 
+.quote {
+  text-align:center;
+}
+
+#dropdown {
+  width:102%;
+  border-radius:20px;
+  height:30px;
+}
+
+#comments {
+  width:100%
+}
+
+#submit {
+  width:102%;
+  border-radius:10px;
+  height:25px;
+  background-color: rgb(251,70,135)
+}
+
+#most-like {
+  width:100%;
+  height:30px;
+}
+
+.square {
+  width:100%
+}
+
+#comments {
+  border-radius:20px;
+  height:25px;
+}
+
+#most-like {
+  border-radius:20px;
+  width:102%
+}
+
+input {
+  border-radius:20px;
+  height:25px
+}
+
+#station {
+  margin-bottom:0;
+  margin-top:30px;
+  
+}
+
+#genre {
+  margin-bottom:0;
+  margin-top:30px;
+}
+
+#fest {
+  margin-bottom:0;
+  margin-top:30px;
+}
+
+#streaming {
+  margin-bottom:0;
+  margin-top:30px;
+}
+
+#comment {
+  margin-bottom:0;
+  margin-top:30px;
+}
